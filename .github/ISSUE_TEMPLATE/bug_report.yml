@@ -6,39 +6,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: description
-    attributes:
-      label: Describe the bug and expected behavior
-      description: A clear and concise description of what the bug is and description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: How do you trigger this bug? Please walk us through it step by step.
-    validations:
-      required: false
-  - type: textarea
-    id: log
-    attributes:
-      label: Enigma2 logs
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
-      render: shell
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
-        ## Open Vision
-        Please complete the following information:
+        ## Open Vision information
   - type: dropdown
     id: ov-type
     attributes:
       label: OV image type
-      description: What type of OV are you running?
       options:
         - Enigma2 (e2)
         - Command Definition (cmd)
@@ -48,18 +23,16 @@ body:
     id: ov-version
     attributes:
       label: OV version
-      description: What version of OV are you running?
       options:
-        - 13.1
-        - 12.2
-        - 7.7
+        - 13.1 (Python 3)
+        - 12.2 (EOL)
+        - 7.7 (Python 2)
     validations:
       required: true
   - type: dropdown
     id: ov-revision
     attributes:
       label: OV revision
-      description: What revision of OV are you running?
       options:
         - r540 (13.1)
         - r535 (12.2)
@@ -71,6 +44,7 @@ body:
     attributes:
       label: STB name
       options:
+        - unknown
         - pulse4k
         - pulse4kmini
         - viper4k
@@ -438,6 +412,39 @@ body:
         - novaip
         - novatwin
         - sh1
+    validations:
+      required: true
+  - type: dropdown
+    id: flash-type
+    attributes:
+      label: Flash type
+      options:
+        - normal
+        - smallflash
+        - middleflash
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug and expected behavior
+      description: A clear and concise description of what the bug is and description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: How do you trigger this bug? Please walk us through it step by step.
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: Enigma2 logs
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
+      render: shell
     validations:
       required: true
   - type: textarea
