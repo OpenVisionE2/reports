@@ -1,6 +1,5 @@
 name: Bug report for Open Vision
 description: Create a report to help us improve
-title: "[BUG] <title>"
 labels: [bug]
 body:
   - type: markdown
