@@ -10,7 +10,6 @@ body:
     attributes:
       value: |
         ## Open Vision information
-        Please complete the following information:
   - type: dropdown
     id: ov-type
     attributes:
