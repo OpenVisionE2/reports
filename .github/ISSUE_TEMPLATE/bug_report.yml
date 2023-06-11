@@ -6,29 +6,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: description
-    attributes:
-      label: Describe the bug and expected behavior
-      description: A clear and concise description of what the bug is and description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: How do you trigger this bug? Please walk us through it step by step.
-    validations:
-      required: false
-  - type: textarea
-    id: log
-    attributes:
-      label: Enigma2 logs
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
-      render: shell
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
@@ -440,6 +417,29 @@ body:
         - sh1
     validations:
       required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug and expected behavior
+      description: A clear and concise description of what the bug is and description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: How do you trigger this bug? Please walk us through it step by step.
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: Enigma2 logs
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
+      render: shell
+    validations:
+      required: false
   - type: textarea
     id: screenshot
     attributes:
