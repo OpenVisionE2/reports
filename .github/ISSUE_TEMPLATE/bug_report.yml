@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: log
     attributes:
-      label: Log
+      label: Enigma2 logs
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
       render: shell
