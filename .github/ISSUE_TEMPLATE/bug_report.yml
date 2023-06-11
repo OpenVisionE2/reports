@@ -48,7 +48,7 @@ body:
     attributes:
       label: STB name
       options:
-        - ?
+        - [?]
         - pulse4k
         - pulse4kmini
         - viper4k
