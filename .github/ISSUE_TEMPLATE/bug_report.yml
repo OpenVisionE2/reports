@@ -24,7 +24,7 @@ body:
     id: log
     attributes:
       label: Enigma2 logs
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. More information: https://github.com/OpenVisionE2/reports/blob/master/How-to-see-logs.md
       placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
       render: shell
     validations:
