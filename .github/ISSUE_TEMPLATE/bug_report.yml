@@ -424,7 +424,7 @@ body:
         - smallflash
         - middleflash
     validations:
-      required: false
+      required: true
   - type: textarea
     id: description
     attributes:
