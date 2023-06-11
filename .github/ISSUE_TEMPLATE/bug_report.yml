@@ -61,7 +61,7 @@ body:
       label: OV revision
       description: What revision of OV are you running?
       options:
-              - r540 (13.1)
+        - r540 (13.1)
         - r535 (12.2)
         - r426 (7.7)
     validations:
