@@ -25,9 +25,9 @@ body:
     attributes:
       label: OV version
       options:
-        - 13.1
-        - 12.2
-        - 7.7
+        - 13.1 (Python 3)
+        - 12.2 (EOL)
+        - 7.7 (Python 2)
     validations:
       required: true
   - type: dropdown
@@ -424,7 +424,7 @@ body:
         - smallflash
         - middleflash
     validations:
-      required: true
+      required: false
   - type: textarea
     id: description
     attributes:
