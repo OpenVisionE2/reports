@@ -446,7 +446,7 @@ body:
       placeholder: init 4&& sleep 5&& ENIGMA_DEBUG_LVL=4 enigma2
       render: shell
     validations:
-      required: false
+      required: true
   - type: textarea
     id: screenshot
     attributes:
