@@ -414,16 +414,6 @@ body:
         - sh1
     validations:
       required: true
-  - type: dropdown
-    id: flash-type
-    attributes:
-      label: Flash type
-      options:
-        - normal
-        - smallflash
-        - middleflash
-    validations:
-      required: false
   - type: textarea
     id: description
     attributes:
