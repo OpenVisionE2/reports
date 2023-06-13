@@ -33,8 +33,10 @@ body:
     attributes:
       label: OV revision
       options:
+        - r545 (13.1)
         - r544 (13.1)
         - r540 (13.1)
+        - r431 (7.7)
         - r430 (7.7)
         - r426 (7.7)
     validations:
