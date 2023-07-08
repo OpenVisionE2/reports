@@ -33,14 +33,12 @@ body:
     attributes:
       label: OV revision
       options:
-        - r548 (13.1)
+        - r549 (13.1)
         - r545 (13.1)
         - r544 (13.1)
-        - r540 (13.1)
-        - r434 (7.7)
+        - r435 (7.7)
         - r431 (7.7)
         - r430 (7.7)
-        - r426 (7.7)
     validations:
       required: true
   - type: dropdown
